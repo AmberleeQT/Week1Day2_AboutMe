@@ -33,9 +33,17 @@ h2, h3 {
     text-align: center;
     padding: 8px 0;
 }
-h1 {
+header h1 {
     margin: 0 0;
-    padding-top: 24px;
+    padding: 24px 0 8px 0;
+} 
+header p {
+    margin: 0 0;
+    padding: 4px 0 8px 0;
+}
+h1 {
+    /* margin: 0 0; */
+    /* padding-top: 24px; */
     /* background-color: #05111fbe; */
     font-size: 48px;
 }
@@ -49,15 +57,23 @@ h3 {
     background-color: #6d608bbe;
     color: #FFFFFF;
 }
-
+nav {
+    /* Sticky position */
+    position: sticky;
+    top: 0;
+}
 ul.top_nav {
     list-style-type: none;
     overflow: hidden;
     background-color: #05111f;
     padding-left: 0;
     margin: 0 0;
+    padding: 4px;
     /* Centering List */
     text-align: center;
+    /* Sticky */
+    position: sticky;
+    top: 0;
 }
 
 ul.top_nav li {
