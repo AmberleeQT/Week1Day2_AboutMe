@@ -1,3 +1,12 @@
+/* 
+    $white: #FFFFFF;
+    $light: #EBE0E6;
+    $bright: #D19FBA;
+    $medium: #6D608B;
+    $dark: #2C4059;
+    $black: #05111F;
+*/
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -14,15 +23,21 @@ body {
 }
 
 header {
-    background-color: #05111f96;
-    padding-top: 24px;
+    background-color: #05111fbe;
+    color: #D19FBA;
+    text-align: center;
 }
-h1 {
-    margin: 0 0;
-    background-color: #05111f96;
+/* h1,  */
+h2, h3 {
     color: #D19FBA;
     text-align: center;
     padding: 8px 0;
+}
+h1 {
+    margin: 0 0;
+    padding-top: 24px;
+    /* background-color: #05111fbe; */
+    font-size: 48px;
 }
 h2 {
     background-color: #05111f96;
@@ -30,13 +45,17 @@ h2 {
     text-align: center;
     padding: 8px 0;
 }
+h3 {
+    background-color: #6d608bbe;
+    color: #FFFFFF;
+}
 
 ul.top_nav {
     list-style-type: none;
     overflow: hidden;
     background-color: #05111f;
     padding-left: 0;
-
+    margin: 0 0;
     /* Centering List */
     text-align: center;
 }
@@ -72,7 +91,7 @@ main {
     justify-content: center;
 }
 .card {
-    background-color: #6d608ba9;
+    background-color: #d19fbabe;
     width: fit-content ;
     margin: 16px;
     align-content: center;
@@ -92,6 +111,7 @@ figcaption {
 figcaption p {
     padding: 0 16px;
     margin: 0 0;
+    font-style: oblique;
 }
 img {
     width: 300px;
