@@ -1,3 +1,6 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
     background-image: url(images/benjamin-voros-phIFdC6lA4E-unsplash.jpg);
     background-repeat: no-repeat;
@@ -59,9 +62,45 @@ a:link, a:visited, a:active {
     color: #ebe0e6;
 }
 
+main {
+    margin-bottom: 100px;
+}
+.inline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: purple;
+    width: fit-content ;
+    margin: 16px;
+    align-content: center;
+}
+figure {
+    margin: 0;
+}
+figcaption {
+    width: 400px;
+    text-align: center;
+    word-wrap: break-word;
+    /* margin: 0 16px; */
+    padding-bottom: 16px;
+}
+figcaption p {
+    padding: 0 16px;
+    margin: 0 0;
+}
+img {
+    width: 300px;
+    padding: 50px;
+    align-self: center;
+}
+
+
 /* Footer */
-footer {
+/* footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+} */
