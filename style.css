@@ -5,7 +5,9 @@ body {
     background-size: cover;
     background-position: center;
 
+    overflow: scroll;
     margin: 0 0;
+    padding: 0 0;
 }
 
 header {
@@ -14,8 +16,16 @@ header {
 }
 h1 {
     margin: 0 0;
+    background-color: #05111f96;
     color: #D19FBA;
     text-align: center;
+    padding: 8px 0;
+}
+h2 {
+    background-color: #05111f96;
+    color: #D19FBA;
+    text-align: center;
+    padding: 8px 0;
 }
 
 ul.top_nav {
@@ -47,4 +57,11 @@ a:hover {
 }
 a:link, a:visited, a:active {
     color: #ebe0e6;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
